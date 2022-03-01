@@ -1,0 +1,79 @@
+body{
+  background-color: #000000;
+}
+.top{
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image{
+  border-width: 3px;
+  border-radius: 20px 20px 0px 0px;
+}
+.one{
+  color: #336699;
+  font-family:'Times New Roman';
+  text-align: center;
+  margin: 0;
+}
+.two{
+  height: end;
+  text-align: center;
+  font-family:'Times New Roman';
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}
+.three{
+  width: 200px;
+  height: end;
+  font-family:'Times New Roman';
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.center{
+  background-color: #FFFFFF;
+  width: 300px;
+  margin-top: -4px;
+  margin-right: auto;
+  margin-left: auto;  
+  align-items: center;
+}
+
+footer{
+  display: grid;
+  width: 300px;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-gap: 15px solid #FFFFFF;
+  background: #336699;  
+  color: #FFFFFF;
+  margin-right: auto;
+  margin-left: auto;  
+  border-radius: 0px 0px 20px 20px;
+}
+.first{
+  grid-column: 1;  
+  text-align: center;
+}
+.second{
+  grid-column: 2;
+  border-right: 3px solid #FFFFFF;
+  border-left: 3px solid #FFFFFF;
+  text-align: center;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  margin-top: 4px;
+}
+.third{
+  grid-column: 3;
+  text-align: center;
+} 
+.reduction{
+  font-size: .4em;
+}
+.space{
+  margin-top: -20px;
+}
